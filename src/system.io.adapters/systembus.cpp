@@ -39,7 +39,7 @@ shared_ptr<StreamIO_UV> systembus::make_adapter()
 **/
 OpContext& systembus::make_OperatingContext()
 {
-	SERVICE_IP = "10.42.0.103";
+	SERVICE_IP = "127.0.0.1";
 	OperatingContext.setServiceIP(SERVICE_IP);
 	OperatingContext.setServicePort(SERVICE_LISTENER_PORT);
 	OperatingContext.setServiceIOMode(OP_PUB_SUB);
