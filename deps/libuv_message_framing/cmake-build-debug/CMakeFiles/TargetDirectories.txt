@@ -1,0 +1,3 @@
+/home/ravi/projects/iot-dsa-v2/deps/libuv_message_framing-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ravi/projects/iot-dsa-v2/deps/libuv_message_framing-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ravi/projects/iot-dsa-v2/deps/libuv_message_framing-master/cmake-build-debug/CMakeFiles/libuv_msgframing.dir

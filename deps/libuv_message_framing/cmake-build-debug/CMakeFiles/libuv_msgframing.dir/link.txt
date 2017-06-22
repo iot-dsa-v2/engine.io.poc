@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibuv_msgframing.a  CMakeFiles/libuv_msgframing.dir/src/uv_msg_framing.c.o CMakeFiles/libuv_msgframing.dir/src/uv_send_message.c.o
+/usr/bin/ranlib liblibuv_msgframing.a
