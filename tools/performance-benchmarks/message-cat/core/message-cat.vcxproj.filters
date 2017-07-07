@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{839e541a-4387-4ff1-9ba2-6bb77f96837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\engine.io">
+      <UniqueIdentifier>{1cc1e57b-5903-4cbc-871a-e814b8d560a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\engine.io\transporters">
+      <UniqueIdentifier>{58b55b90-8bbb-42b0-964a-35acf057fe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\app">
+      <UniqueIdentifier>{9bcd26a7-f252-47ea-a3dc-fcaa3dd171c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine.io">
+      <UniqueIdentifier>{d7718cca-c43a-442e-8b88-ed9c4f17e978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{e3bd50fd-0c6d-4451-85e5-3200a8e234d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\engine.io\ioadapters">
+      <UniqueIdentifier>{a54e6bd5-fd5b-4492-8c78-167949f5dab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine.io\ioadapters">
+      <UniqueIdentifier>{23698102-9723-4831-971e-128f37440ca1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\app\app-config.h">
+      <Filter>inc\app</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\app\payload-generator.h">
+      <Filter>inc\app</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\ioprocessor.h">
+      <Filter>inc\engine.io</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\ioadapters\defs-libuv.h">
+      <Filter>inc\engine.io\ioadapters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\ioadapters\monitor-libuv.h">
+      <Filter>inc\engine.io\ioadapters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\transporters\tcp.h">
+      <Filter>inc\engine.io\transporters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\errors\v2error.h">
+      <Filter>inc\engine.io</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\app\timestamp.h">
+      <Filter>inc\app</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\engine.io\ioadapters\timestamp.h">
+      <Filter>inc\engine.io\ioadapters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\app-config_ut.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine.io\ioadapters\monitor-libuv.cpp">
+      <Filter>src\engine.io\ioadapters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\app-config.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\message-cat.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
